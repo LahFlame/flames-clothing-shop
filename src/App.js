@@ -1,4 +1,4 @@
-import HomePage from './homedirectory.component';
+import HomePage from './pages/homepage/homedirectory.component';
 import './App.css';
 
 function App() {
