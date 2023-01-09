@@ -7,5 +7,10 @@ const addItem = (item) => ({
     type: cartActionTypes.ADD_ITEM,
     payload: item
 })
+
+const removeItem = (item) => ({
+    type: cartActionTypes.REMOVE_ITEM,
+    payload: item
+})
 export default setToggle;
-export {addItem};
+export {addItem,removeItem};
