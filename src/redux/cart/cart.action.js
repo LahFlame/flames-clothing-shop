@@ -12,5 +12,9 @@ const removeItem = (item) => ({
     type: cartActionTypes.REMOVE_ITEM,
     payload: item
 })
+const decreaseQuantity = (item) => ({
+    type: cartActionTypes.DECREASE_QUANTITY,
+    payload: item
+})
 export default setToggle;
-export {addItem,removeItem};
+export {addItem,removeItem,decreaseQuantity};
