@@ -6,6 +6,9 @@
     .title{
         font-size: 28px;
         margin-bottom: 25px;
+        span {
+            cursor: pointer;
+        }
     }
     .preview{
         display: flex;
